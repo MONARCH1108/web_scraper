@@ -5,11 +5,6 @@ __pycache__/
 
 # C extensions
 *.so
-# Ignore HTML files
-*.html linguist-documentation
-
-# Alternatively, ignore an entire folder (e.g., HTML files in `html_files/`)
-html_files/* linguist-documentation
 
 # Distribution / packaging
 .Python
@@ -42,7 +37,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
+htmlcov/ *.html linguist-documentation
 .tox/
 .nox/
 .coverage
@@ -166,5 +161,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-*.html linguist-documentation
 
