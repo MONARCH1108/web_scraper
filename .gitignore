@@ -163,3 +163,8 @@ cython_debug/
 
 # GitHub Linguist configuration
 html_files/* linguist-documentation
+
+# Mark all files in the html_files folder as documentation
+html_files/* linguist-documentation
+extracted_philosophy/* linguist-documentation
+extracted_philosopher/* linguist-documentation
