@@ -4,9 +4,8 @@ Welcome to the **Philosophy Web Scraper** project! This repository contains Pyth
 
 ## 📂 Project Structure
 
-- **html_files/**: Contains HTML documents scraped from Wikipedia.
-- **extracted_philosophy/**: Text files with extracted paragraphs from both HTML sources and direct website scraping.
-- **extracted_philosopher/**: JSON files that include philosopher images, captions, and text data.
+- **source.py**: for page source extraction
+- **Extraction.ipynb & site_extraction.ipynb**: for extraction of text from page source.
 - **site_scraper/**: A Scrapy project folder for organized web scraping.
 
 ## 📜 Extraction Methods
